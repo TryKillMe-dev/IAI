@@ -28,11 +28,23 @@ header {
     width: 33%;
 }
 
+.col-3 {
+    width: 25%;
+}
+
 .col-6 {
     width: 50%;
 }
 
 .col-12 {
+    width: 100%;
+}
+
+.col-12-s {
+    width: 100%;
+}
+
+.col-12-b {
     width: 100%;
 }
 
@@ -154,7 +166,7 @@ ul.ul_submenu {
     display: none;
 }
 
-i {
+#icon i {
     display: none;
     color: black;
 }
@@ -170,7 +182,10 @@ i {
 }
 
 
-
+#slider
+{
+    width: 100%
+}
 
 
 #contact {
@@ -180,8 +195,143 @@ i {
     padding: 10px;
 }
 
+
+
+.row-container_slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.row-container_slider .col-12-s {
+
+    text-align: center;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+
+}
+
+
+#small-slider img {
+    width: 100%;
+    text-align: center;
+}
+
+
+#small-slider {
+    padding: 30px;
+}
+
+
+#armodo {
+    color: black;
+}
+
+
+
+#seo img {
+    width: 100%;
+}
+
+
+#seo-slider {
+    padding: 30px;
+}
+
+#seo .slick-prev:before {
+    color: black;
+}
+
+#seo .slick-next:before {
+    color: black;
+}
+
+#seo .slick-next {
+    right: 0px;
+}
+
+#seo .slick-prev {
+    left: 0px;
+}
+
+#slider .slick-next {
+    right: 0px;
+
+}
+
+#slider .slick-prev {
+    left: 0px;
+
+}
+
+
+#slider .slick-next:before {
+    color: black;
+}
+
+#slider .slick-prev:before {
+    color: black;
+}
+
+
+.row-container_armodo-why {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.row-container_armodo-why .col-6 {
+
+    text-align: center;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+
+}
+
+
+.seo-text {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.armodo-why {
+    text-align: center;
+    color: black;
+    padding: 25px;
+}
+
+#armodo {
+    text-align: center;
+    padding: 10px;
+}
+
+#armodo i {
+    padding: 10px;
+}
+
+
+.row-container_fot {
+
+        display: flex;
+flex-wrap: wrap;
+    }
+
+
 @media only screen and (min-width: 361px) {
-    main {
+    #small-slider {
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    #main-banner {
         margin-left: 5%;
         margin-right: 5%;
 
@@ -281,4 +431,62 @@ i {
         width: 50%;
     }
 
+    #seo img {
+        padding: 10px;
+    }
+
+    #seo {
+        padding: 10px;
+    }
+
+    #seo .slick-next {
+        right: 55px;
+
+    }
+
+    #seo .slick-next:before {
+        color: white;
+        opacity: 1;
+    }
+
+    #seo .slick-prev {
+        left: 25px;
+    }
+
+    #seo .slick-prev:before {
+        color: white;
+    }
+
+
+
+    .armodo-why {
+        width: 100%;
+    }
+
+    .row-container_fot {
+
+        display: flex;
+
+    }
+
+    .seo-text {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    
+    #seo-slider {
+    padding: 10px;
+}
+
+    
+    .iconss{
+        display: flex;
+    justify-content: center;
+    }
+    
+    .col-3-pc
+    {
+        width: 25%;
+    }
+    
 }

@@ -25,6 +25,18 @@
       "src": "entypo"
     },
     {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4743b088aa95d6f3b6b990e770d3b647",
+      "css": "facebook-squared",
+      "code": 62216,
+      "src": "fontawesome"
+    },
+    {
       "uid": "6391c7f069876210f038f1fa523a1d19",
       "css": "angle-arrow-down",
       "code": 59392,
