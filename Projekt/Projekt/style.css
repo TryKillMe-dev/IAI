@@ -13,9 +13,9 @@ html {
 }
 
 header {
+    
     position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    
 
 }
 
@@ -93,25 +93,25 @@ header {
 
 }
 
-.submenu {
+#account .submenu {
     display: flex;
 
     flex-direction: column;
 }
 
-.submenu a {
+#account .submenu a {
     font-size: 1.5em;
     letter-spacing: 0.2em;
 }
 
-.ul_submenu li {
+#account .ul_submenu li {
     display: flex;
     justify-content: center;
     flex-direction: column;
 
 }
 
-.ul_submenu a {
+#account .ul_submenu a {
     font-size: 1.3em;
     letter-spacing: 0.0em;
 }
@@ -142,7 +142,7 @@ header {
 }
 
 #account .submenu a {
-    text-decoration: none;
+    
     background-color: #231F20;
     border: none;
     color: white;
@@ -162,7 +162,11 @@ header {
     flex-direction: column;
 }
 
-ul.ul_submenu {
+#account ul.ul_submenu {
+    display: none;
+}
+
+#topmenu ul.ul_subtopmenu {
     display: none;
 }
 
@@ -324,6 +328,153 @@ flex-wrap: wrap;
     }
 
 
+.mid-slider img {
+    width: 100%;
+}
+
+#product .slick-slider
+{
+    display: flex;
+}
+
+
+.mid-slider span
+{
+    color: black;
+}
+
+
+.product
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#product .slick-initialized .slick-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product .text 
+{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.kolekcja
+{
+    color: white;
+    background-color: #BB2000;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.info
+{
+    background-color: #231F20;
+   
+    
+}
+.info a {
+        
+        color: white;
+    text-decoration: none;
+    }
+
+
+
+.search input[type=text] {
+  
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.account
+{
+    color: black;
+    
+}
+
+.account a {
+    text-decoration: none;
+}
+
+
+
+.top 
+{
+        display: flex;
+    flex-direction: column;
+}
+
+
+.info, .search, .account img, #kosz {
+    display: none;
+}
+
+
+.nav img
+{
+    width: 100%;
+    
+}
+
+.nav 
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.flag, .account
+{
+    display: flex;
+    align-items: center;
+}
+
+.topmenu {
+    display: none;
+}
+
+
+.hamburger
+{
+    color: black;
+}
+
+.account .icon-group-6, .account .icon-phone {
+display: none;
+}
+
+.logo
+{
+    width: 50%;
+}
+
+.account
+{
+    justify-content: space-around;
+    width: 50%;
+}
+
+.other
+{
+    order: 1;
+}
+
+
 @media only screen and (min-width: 361px) {
     #small-slider {
         margin-left: 5%;
@@ -350,7 +501,7 @@ flex-wrap: wrap;
         font-size: 2.5em;
     }
 
-    ul.ul_submenu {
+   #account ul.ul_submenu {
         display: block;
     }
 
@@ -373,13 +524,13 @@ flex-wrap: wrap;
 
 
 
-    .menu {
+    #account .menu {
         display: flex;
         justify-content: center;
         background-color: #231F20;
     }
 
-    .submenu {
+   #account .submenu {
         width: 15%;
 
 
@@ -487,6 +638,89 @@ flex-wrap: wrap;
     .col-3-pc
     {
         width: 25%;
+    }
+    
+    .other
+{
+    order: 0;
+}
+    
+    .info
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        color: white;
+    }
+    
+    .info i
+    {
+        color: white;
+    }
+    
+    
+    .account .icon-phone, .account .icon-group-6, #kosz, .account img
+    {
+        display: block;
+    }
+    
+    .account .icon-lupa {
+        display: none;
+    }
+    
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav{
+        flex-direction: column;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .topmenu {
+        display: flex;
+    }
+    
+    .menu
+    {
+        display: flex;
+    }
+    
+    .flag
+    {
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .account .icon-group-7{
+        display: flex;
+    }
+    
+    
+    .topmenu {
+        width: 100%;
+    justify-content: space-around;
+    }
+    
+    .menu {
+        width: 100%;
+    }
+    
+    .subtopmenu a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #sale {
+        color: red;
+    }
+    
+    .col-4{
+        width: 33%;
     }
     
 }

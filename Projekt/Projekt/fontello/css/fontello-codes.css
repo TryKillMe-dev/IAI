@@ -1,6 +1,13 @@
 
 .icon-phone:before { content: '\e800'; } /* '' */
 .icon-mail:before { content: '\e801'; } /* '' */
+.icon-return:before { content: '\e80b'; } /* '' */
+.icon-shipped:before { content: '\e80c'; } /* '' */
+.icon-group-6:before { content: '\e813'; } /* '' */
+.icon-group-7:before { content: '\e814'; } /* '' */
+.icon-heart-_11_:before { content: '\e815'; } /* '' */
+.icon-lupa:before { content: '\e818'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-percent:before { content: '\f295'; } /* '' */
 .icon-facebook-squared:before { content: '\f308'; } /* '' */
 .icon-facebook-circled:before { content: '\f30d'; } /* '' */
