@@ -2,15 +2,22 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href=style.css>
-    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jquery.multilevelpushmenu.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://oss.maxcdn.com/libs/modernizr/2.6.2/modernizr.min.js"></script>
+</head>
     <link rel="stylesheet" type="text/css" href="slick/slick/slick.css" />
-    
 
+    
     <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css" />
 
 </head>
@@ -37,13 +44,13 @@
             </div>
 
 
-            <nav class="nav">
+            <section class="nav">
                 <div class="flag">
                     <div class="logo col-4">
                         <a href="" title=""><img src="img/logo.png" alt="" /></a>
                     </div>
                     <div class="search col-4">
-                    <input type="text" placeholder="Wpisz czego szukasz..">
+                        <input type="text" placeholder="Wpisz czego szukasz..">
                     </div>
                     <div class="account col-4">
                         <i class="icon-lupa"><a href="#"></a></i>
@@ -52,108 +59,383 @@
                         <i class="icon-heart-_11_"><a href="#"></a></i>
                         <i class="icon-group-7"><a href="#"><span id="kosz">KOSZYK</span></a></i>
                         <div><a href="" title=""><img src="img/lang.png" alt="" /></a></div>
-                        
+
 
 
                     </div>
                 </div>
 
 
-                <div class="menu">
-                        
-                    <div id="topmenu" class="col-12 col-12-pc">
-                <ul class="topmenu">
-                    <li class="subtopmenu"><a href="#">DAMSKIE</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">Status zamówienia</a></li>
-                            <li><a href="#">Śledzenie przesyłki</a></li>
-                            <li><a href="#">Chcę zareklamować towar</a></li>
-                            <li><a href="#">Chcę zwrócić towar</a></li>
-                            <li><a href="#">Chcę wymienić towar</a></li>
-                        </ul>
-                    </li>
+                <div id="menu">
+                    <nav>
+                        <h2><i class="fa fa-reorder"></i>All Categories</h2>
+                        <ul class="ulmenu">
+                            <li class="menumenu">
+                                <a href="#">DAMSKIE</a>
+                                
+                                <ul class="ulmenumenu">
+                                    <li class="menimeni">
+                                        <a href="#">BOTKI I KOZAKI</a>
+                                        <h2>BOTKI I KOZAKI</h2>
+                                        <ul>
+                                            <li><a href="#">Botki</a></li>
+                                            <li><a href="#">Glany</a></li>
+                                            <li><a href="#">Kowbojki</a></li>
+                                            <li><a href="#">Kozaki</a></li>
+                                            <li><a href="#">Oficerki</a></li>
+                                            <li><a href="#">Śniegowce</a></li>
+                                            <li><a href="#">Sztyblety</a></li>
+                                            <li><a href="#">Trekkingi i trapery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">KLAPKI I SANDAŁY</a>
+                                        <h2>KLAPKI I SANDAŁY</h2>
+                                        <ul>
 
-                    <li class="subtopmenu"><a href="#">MĘSKIE</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">Zarejestruj się</a></li>
-                            <li><a href="#">Moje zamówienia</a></li>
-                            <li><a href="#">Koszyk</a></li>
-                            <li><a href="#">Ulubione</a></li>
-                            <li><a href="#">Historia transakcji</a></li>
-                            <li><a href="#">Moje rabaty</a></li>
-                            <li><a href="#">Newsletter</a></li>
-                        </ul>
-                    </li>
+                                            <li><a href="#">Klapki</a></li>
+                                            <li><a href="#">Sandały</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">PÓŁBUTY</a>
+                                        <h2>PÓŁBUTY</h2>
+                                        <ul>
+                                            <li><a href="#">Baleriny</a></li>
+                                            <li><a href="#">Czółenka</a></li>
+                                            <li><a href="#">Espadryle</a></li>
+                                            <li><a href="#">Lordsy</a></li>
+                                            <li><a href="#">Mokasyny</a></li>
+                                            <li><a href="#">Na koturnie</a></li>
+                                            <li><a href="#">Na obcasie</a></li>
+                                            <li><a href="#">Oxfordy</a></li>
+                                            <li><a href="#">Płaskie</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">MARKI</a>
+                                        <h2>MARKI</h2>
+                                        <ul>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a class="others" href="#">Wszyskie marki</a></li>
+                                        </ul>
+                                    </li>
+                                    <div class="baner_reklamowy menimeni">
+                                        <a href="#" title=""><img src="img/baner_reklamowy.png" alt="" /></a>
 
-                    <li class="subtopmenu"><a href="#">TOREBKI</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">Informacje o sklepie</a></li>
-                            <li><a href="#">Wysyłka</a></li>
-                            <li><a href="#">Sposoby płatności i prowizji</a></li>
-                            <li><a href="#">Regulamin</a></li>
-                            <li><a href="#">Polityka prywatności</a></li>
-                            <li><a href="#">Odstąpienie od umowy</a></li>
-                        </ul>
-                    </li>
+                                        <a href="#">NOWOŚCI</a>
+                                        <a href="#">WYPRZEDAŻ</a>
+                                        <a href="#">BESTSELLERY</a>
 
-                    <li class="subtopmenu"><a href="#">AKCESORIA</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">O nas</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Jak dobrać rozmiar</a></li>
-                            <li><a href="#">Tabela rozmiarów</a></li>
-                            <li><a href="#">Pielęgnacja obuwia</a></li>
-                            <li><a href="#">Technologie</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="subtopmenu"><a href="#">PREMIUM</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">O nas</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Jak dobrać rozmiar</a></li>
-                            <li><a href="#">Tabela rozmiarów</a></li>
-                            <li><a href="#">Pielęgnacja obuwia</a></li>
-                            <li><a href="#">Technologie</a></li>
-                        </ul>
-                    </li>
-                    <li class="subtopmenu"><a href="#">MARKI</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">O nas</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Jak dobrać rozmiar</a></li>
-                            <li><a href="#">Tabela rozmiarów</a></li>
-                            <li><a href="#">Pielęgnacja obuwia</a></li>
-                            <li><a href="#">Technologie</a></li>
-                        </ul>
-                    </li>
-                    <li class="subtopmenu"><a href="#">NOWOŚĆ</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">O nas</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Jak dobrać rozmiar</a></li>
-                            <li><a href="#">Tabela rozmiarów</a></li>
-                            <li><a href="#">Pielęgnacja obuwia</a></li>
-                            <li><a href="#">Technologie</a></li>
-                        </ul>
-                    </li>
-                    <li class="subtopmenu"><a id="sale" href="#">WYPRZEDAŻ</a>
-                        <ul class="ul_subtopmenu">
-                            <li><a href="#">O nas</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Jak dobrać rozmiar</a></li>
-                            <li><a href="#">Tabela rozmiarów</a></li>
-                            <li><a href="#">Pielęgnacja obuwia</a></li>
-                            <li><a href="#">Technologie</a></li>
-                        </ul>
-                    </li>
 
-                </ul>
+                                    </div>
 
-                        
-  <span class="hamburger">HAMBURGER</span>
-            </div>
+                                </ul>
+                            </li>
+                            <li class="menumenu">
+                                <a href="#">MĘSKIE</a>
+                                
+                                <ul class="ulmenumenu">
+                                    <li class="menimeni">
+                                        <a href="#">BOTKI I KOZAKI</a>
+                                        <h2>BOTKI I KOZAKI</h2>
+                                        <ul>
+                                            <li><a href="#">Botki</a></li>
+                                            <li><a href="#">Glany</a></li>
+                                            <li><a href="#">Kowbojki</a></li>
+                                            <li><a href="#">Kozaki</a></li>
+                                            <li><a href="#">Oficerki</a></li>
+                                            <li><a href="#">Śniegowce</a></li>
+                                            <li><a href="#">Sztyblety</a></li>
+                                            <li><a href="#">Trekkingi i trapery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">KLAPKI I SANDAŁY</a>
+                                        <h2>KLAPKI I SANDAŁY</h2>
+                                        <ul>
 
+                                            <li><a href="#">Klapki</a></li>
+                                            <li><a href="#">Sandały</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">PÓŁBUTY</a>
+                                        <h2>PÓŁBUTY</h2>
+                                        <ul>
+                                            <li><a href="#">Baleriny</a></li>
+                                            <li><a href="#">Czółenka</a></li>
+                                            <li><a href="#">Espadryle</a></li>
+                                            <li><a href="#">Lordsy</a></li>
+                                            <li><a href="#">Mokasyny</a></li>
+                                            <li><a href="#">Na koturnie</a></li>
+                                            <li><a href="#">Na obcasie</a></li>
+                                            <li><a href="#">Oxfordy</a></li>
+                                            <li><a href="#">Płaskie</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">MARKI</a>
+                                        <h2>MARKI</h2>
+                                        <ul>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a class="others" href="#">Wszyskie marki</a></li>
+                                        </ul>
+                                    </li>
+                                    <div class="baner_reklamowy menimeni">
+                                        <a href="#" title=""><img src="img/baner_reklamowy.png" alt="" /></a>
+
+                                        <a href="#">NOWOŚCI</a>
+                                        <a href="#">WYPRZEDAŻ</a>
+                                        <a href="#">BESTSELLERY</a>
+
+
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="menumenu">
+                                <a href="#">TOREBKI</a>
+                                
+                                <ul class="ulmenumenu">
+                                    <li class="menimeni">
+                                        <a href="#">BOTKI I KOZAKI</a>
+                                        <h2>BOTKI I KOZAKI</h2>
+                                        <ul>
+                                            <li><a href="#">Botki</a></li>
+                                            <li><a href="#">Glany</a></li>
+                                            <li><a href="#">Kowbojki</a></li>
+                                            <li><a href="#">Kozaki</a></li>
+                                            <li><a href="#">Oficerki</a></li>
+                                            <li><a href="#">Śniegowce</a></li>
+                                            <li><a href="#">Sztyblety</a></li>
+                                            <li><a href="#">Trekkingi i trapery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">KLAPKI I SANDAŁY</a>
+                                        <h2>KLAPKI I SANDAŁY</h2>
+                                        <ul>
+
+                                            <li><a href="#">Klapki</a></li>
+                                            <li><a href="#">Sandały</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">PÓŁBUTY</a>
+                                        <h2>PÓŁBUTY</h2>
+                                        <ul>
+                                            <li><a href="#">Baleriny</a></li>
+                                            <li><a href="#">Czółenka</a></li>
+                                            <li><a href="#">Espadryle</a></li>
+                                            <li><a href="#">Lordsy</a></li>
+                                            <li><a href="#">Mokasyny</a></li>
+                                            <li><a href="#">Na koturnie</a></li>
+                                            <li><a href="#">Na obcasie</a></li>
+                                            <li><a href="#">Oxfordy</a></li>
+                                            <li><a href="#">Płaskie</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">MARKI</a>
+                                        <h2>MARKI</h2>
+                                        <ul>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a class="others" href="#">Wszyskie marki</a></li>
+                                        </ul>
+                                    </li>
+                                    <div class="baner_reklamowy menimeni">
+                                        <a href="#" title=""><img src="img/baner_reklamowy.png" alt="" /></a>
+
+                                        <a href="#">NOWOŚCI</a>
+                                        <a href="#">WYPRZEDAŻ</a>
+                                        <a href="#">BESTSELLERY</a>
+
+
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="menumenu">
+                                <a href="#">AKCESORIA</a>
+                                
+                                <ul class="ulmenumenu">
+                                    <li class="menimeni">
+                                        <a href="#">BOTKI I KOZAKI</a>
+                                        <h2>BOTKI I KOZAKI</h2>
+                                        <ul>
+                                            <li><a href="#">Botki</a></li>
+                                            <li><a href="#">Glany</a></li>
+                                            <li><a href="#">Kowbojki</a></li>
+                                            <li><a href="#">Kozaki</a></li>
+                                            <li><a href="#">Oficerki</a></li>
+                                            <li><a href="#">Śniegowce</a></li>
+                                            <li><a href="#">Sztyblety</a></li>
+                                            <li><a href="#">Trekkingi i trapery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">KLAPKI I SANDAŁY</a>
+                                        <h2>KLAPKI I SANDAŁY</h2>
+                                        <ul>
+
+                                            <li><a href="#">Klapki</a></li>
+                                            <li><a href="#">Sandały</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">PÓŁBUTY</a>
+                                        <h2>PÓŁBUTY</h2>
+                                        <ul>
+                                            <li><a href="#">Baleriny</a></li>
+                                            <li><a href="#">Czółenka</a></li>
+                                            <li><a href="#">Espadryle</a></li>
+                                            <li><a href="#">Lordsy</a></li>
+                                            <li><a href="#">Mokasyny</a></li>
+                                            <li><a href="#">Na koturnie</a></li>
+                                            <li><a href="#">Na obcasie</a></li>
+                                            <li><a href="#">Oxfordy</a></li>
+                                            <li><a href="#">Płaskie</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">MARKI</a>
+                                        <h2>MARKI</h2>
+                                        <ul>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a class="others" href="#">Wszyskie marki</a></li>
+                                        </ul>
+                                    </li>
+                                    <div class="baner_reklamowy menimeni">
+                                        <a href="#" title=""><img src="img/baner_reklamowy.png" alt="" /></a>
+
+                                        <a href="#">NOWOŚCI</a>
+                                        <a href="#">WYPRZEDAŻ</a>
+                                        <a href="#">BESTSELLERY</a>
+
+
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li class="menumenu">
+                                <a href="#">PREMIUM</a>
+                                
+                                <ul class="ulmenumenu">
+                                    <li class="menimeni">
+                                        <a href="#">BOTKI I KOZAKI</a>
+                                        <h2>BOTKI I KOZAKI</h2>
+                                        <ul>
+                                            <li><a href="#">Botki</a></li>
+                                            <li><a href="#">Glany</a></li>
+                                            <li><a href="#">Kowbojki</a></li>
+                                            <li><a href="#">Kozaki</a></li>
+                                            <li><a href="#">Oficerki</a></li>
+                                            <li><a href="#">Śniegowce</a></li>
+                                            <li><a href="#">Sztyblety</a></li>
+                                            <li><a href="#">Trekkingi i trapery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">KLAPKI I SANDAŁY</a>
+                                        <h2>KLAPKI I SANDAŁY</h2>
+                                        <ul>
+
+                                            <li><a href="#">Klapki</a></li>
+                                            <li><a href="#">Sandały</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">PÓŁBUTY</a>
+                                        <h2>PÓŁBUTY</h2>
+                                        <ul>
+                                            <li><a href="#">Baleriny</a></li>
+                                            <li><a href="#">Czółenka</a></li>
+                                            <li><a href="#">Espadryle</a></li>
+                                            <li><a href="#">Lordsy</a></li>
+                                            <li><a href="#">Mokasyny</a></li>
+                                            <li><a href="#">Na koturnie</a></li>
+                                            <li><a href="#">Na obcasie</a></li>
+                                            <li><a href="#">Oxfordy</a></li>
+                                            <li><a href="#">Płaskie</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menimeni">
+                                        <a href="#">MARKI</a>
+                                        <h2>MARKI</h2>
+                                        <ul>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a href="#">Nessi</a></li>
+                                            <li><a href="#">Tamaris</a></li>
+                                            <li><a href="#">Gino rossi</a></li>
+                                            <li><a href="#">Carinii</a></li>
+                                            <li><a href="#">Karino</a></li>
+                                            <li><a class="others" href="#">Wszyskie marki</a></li>
+                                        </ul>
+                                    </li>
+                                    <div class="baner_reklamowy menimeni">
+                                        <a href="#" title=""><img src="img/baner_reklamowy.png" alt="" /></a>
+
+                                        <a href="#">NOWOŚCI</a>
+                                        <a href="#">WYPRZEDAŻ</a>
+                                        <a href="#">BESTSELLERY</a>
+
+
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">MARKI</a>
+                            </li>
+                            <li>
+                                <a href="#">NOWOŚCI</a>
+                            </li>
+                            <li>
+                                <a href="#">WYPRZEDAŻ</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
 
 
@@ -442,10 +724,29 @@
     </footer>
 
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.multilevelpushmenu.min.js"></script>
+    
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-45795667-3']);
+        _gaq.push(['_setDomainName', 'make.rs']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
     <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
+
 
 </html>
